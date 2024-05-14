@@ -1,0 +1,25 @@
+.promo {
+    flex: 0 0 50%;
+	background-color: $dark-blue;
+	display: flex;
+	justify-content: center;
+	border-radius: 15px;
+		&__block {
+			margin: 130px 0 0 0;
+		}
+
+		&__img {
+			margin: 0 0 90px 0;
+		}
+
+		&__title {
+			color: $white;
+			@include fontz(600, 40px, 60px);
+			margin: 0 0 4px 0;
+		}
+
+		&__subtitle {
+			color: $white;
+			@include fontz(300, 20px, 30px);
+		}
+}

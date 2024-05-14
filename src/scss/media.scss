@@ -1,0 +1,13 @@
+@media(max-width:1200px){
+    .sign-in {
+        flex: 0 0 100%;
+        &__button  {
+            width: 229px;
+            height: 43px;
+            @include fontz(500, 15px, 23.5px);
+        }
+    }
+    .promo  {
+        display: none;
+    }
+}
