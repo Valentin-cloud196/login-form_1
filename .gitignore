@@ -4,6 +4,7 @@
 node_modules
 build
 dist
+#gulp оставить?
 gulp
 version.json
 package-lock.json
